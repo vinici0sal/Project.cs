@@ -8,10 +8,17 @@ namespace Course
     class Tst{
         static void Main(string[] args){
 
-            object api = ("https://api.tomticket.com/criar_chamado/{token}/{identificador_cliente}");
-            Dictionary<string, string> info = new Dictionary<string, string>();
+            object api = ("https://api.tomticket.com/criar_chamado/817c0c01d03ba0382b8f940de94c5f8d56c5fda05b1c55fb730f694ffd6f51f0/3221");
+            bool erro = false;
 
-            info["bom dia"] = "bom dia";  css
+
+            Dictionary<string, string> info = new Dictionary<string, string>();{
+            info["id_departamento"] = "b06d8cd6a84ad662633553e92b0b608a";
+            info[""] = "666k";
+            }
+
+        
+
         }
     }
 }
