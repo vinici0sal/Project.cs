@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poo_cs", "Poo_cs\Poo_cs.csproj", "{6521EF64-3D9D-43FF-9EBF-92D90D385CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asp", "asp", "{33133792-87EC-40C8-ADA8-0DF698BC093F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yes", "asp\yes\yes.csproj", "{7B4ABDD6-34DF-4868-8DA3-0230965846C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6521EF64-3D9D-43FF-9EBF-92D90D385CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6521EF64-3D9D-43FF-9EBF-92D90D385CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6521EF64-3D9D-43FF-9EBF-92D90D385CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6521EF64-3D9D-43FF-9EBF-92D90D385CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4ABDD6-34DF-4868-8DA3-0230965846C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4ABDD6-34DF-4868-8DA3-0230965846C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4ABDD6-34DF-4868-8DA3-0230965846C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4ABDD6-34DF-4868-8DA3-0230965846C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B4ABDD6-34DF-4868-8DA3-0230965846C7} = {33133792-87EC-40C8-ADA8-0DF698BC093F}
+	EndGlobalSection
+EndGlobal

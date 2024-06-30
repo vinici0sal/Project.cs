@@ -1,0 +1,14 @@
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\bin\Debug\net8.0\Poo_cs.exe
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\bin\Debug\net8.0\Poo_cs.deps.json
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\bin\Debug\net8.0\Poo_cs.runtimeconfig.json
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\bin\Debug\net8.0\Poo_cs.dll
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\bin\Debug\net8.0\Poo_cs.pdb
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.AssemblyInfoInputs.cache
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.AssemblyInfo.cs
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.csproj.CoreCompileInputs.cache
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.dll
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\refint\Poo_cs.dll
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.pdb
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\Poo_cs.genruntimeconfig.cache
+C:\Users\Raizd\OneDrive\Desktop\poo\Poo_cs\obj\Debug\net8.0\ref\Poo_cs.dll
