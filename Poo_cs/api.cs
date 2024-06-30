@@ -14,7 +14,10 @@ namespace Course
 
             Dictionary<string, string> info = new Dictionary<string, string>();{
             info["id_departamento"] = "b06d8cd6a84ad662633553e92b0b608a";
-            info[""] = "666k";
+            info["titulo"] = "Chamado Teste";
+            info["mensagem"] = "Chamado teste utilizando a linguagem c#";
+            info["tipo_assunto"] = "aa8674a3c66018b05325caa19c7f7dfd";
+
             }
 
         
