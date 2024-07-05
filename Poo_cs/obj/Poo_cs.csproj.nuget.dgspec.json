@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\Poo_cs\\Poo_cs.csproj": {}
+    "C:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\Poo_cs\\Poo_cs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\Poo_cs\\Poo_cs.csproj": {
+    "C:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\Poo_cs\\Poo_cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\Poo_cs\\Poo_cs.csproj",
+        "projectUniqueName": "C:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\Poo_cs\\Poo_cs.csproj",
         "projectName": "Poo_cs",
-        "projectPath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\Poo_cs\\Poo_cs.csproj",
+        "projectPath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\Poo_cs\\Poo_cs.csproj",
         "packagesPath": "C:\\Users\\Raizd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\Poo_cs\\obj\\",
+        "outputPath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\Poo_cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raizd\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,6 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,26 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Runtime.CompilerServices;
+using System.Globalization;
 
-namespace Course
+namespace Poo_cs
 {
-    class Program{
-        static void Main(string[] args){
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
-            object api = ("https://api.tomticket.com/criar_chamado/817c0c01d03ba0382b8f940de94c5f8d56c5fda05b1c55fb730f694ffd6f51f0/3221");
-            bool erro = false;
+            Produtos prod = new Produtos();
 
+            Console.WriteLine("informe as descrições do produto: ");
 
-            Dictionary<string, string> info = new Dictionary<string, string>();{
-            info["id_departamento"] = "b06d8cd6a84ad662633553e92b0b608a";
-            info["titulo"] = "Chamado Teste";
-            info["mensagem"] = "Chamado teste utilizando a linguagem c#";
-            info["tipo_assunto"] = "aa8674a3c66018b05325caa19c7f7dfd";
+            Console.Write("Nome: ");
+            prod.Nome = Console.ReadLine();
+            Console.WriteLine();
 
-            }
+            Console.Write("Qual o preço do produto: ");
+            prod.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine();
 
-        
+            Console.Write("Quantidade: ");
+            prod.Quantidade = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            Console.WriteLine($"Dados do produto: {prod}");
+
+            Console.WriteLine($"Valor em estoque: {prod.Valor_Total_Estoque()}");
+
+            Console.WriteLine("Adicione produtos: ");
+            int quant = int.Parse(Console.ReadLine());
+
+            prod.Adicionar_Produtos(quant);
+
+            Console.Write("Aperte enter para finalizar o programa");
+            Console.Read();
+
 
         }
     }
