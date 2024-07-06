@@ -14,15 +14,16 @@ class Produtos
         Console.WriteLine("Informe os dados do Produto: ");
         Console.WriteLine();
 
-        Console.WriteLine("Quantidade");
+        Console.Write("Quantidade");
         Quantidade = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Preço: ");
+        Console.Write("Preço: ");
         Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        Console.WriteLine("Produto: ");
-        
+        Console.Write("Produto: ");
         Nome = Console.ReadLine();
+
+        
     }
 
     public double Valor_Total_Estoque()

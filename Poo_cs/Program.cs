@@ -7,7 +7,6 @@ namespace Poo_cs
     {
         static void Main(string[] args)
         {
-
             Produtos prod = new Produtos();
 
             Console.WriteLine($"Dados do produto: {prod}");
