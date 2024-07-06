@@ -10,20 +10,6 @@ namespace Poo_cs
 
             Produtos prod = new Produtos();
 
-            Console.WriteLine("informe as descrições do produto: ");
-
-            Console.Write("Nome: ");
-            prod.Nome = Console.ReadLine();
-            Console.WriteLine();
-
-            Console.Write("Qual o preço do produto: ");
-            prod.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.WriteLine();
-
-            Console.Write("Quantidade: ");
-            prod.Quantidade = int.Parse(Console.ReadLine());
-            Console.WriteLine();
-
             Console.WriteLine($"Dados do produto: {prod}");
 
             Console.WriteLine($"Valor em estoque: {prod.Valor_Total_Estoque()}");
@@ -33,8 +19,16 @@ namespace Poo_cs
 
             prod.Adicionar_Produtos(quant);
 
+            Console.WriteLine($"Dados autualizados:{prod}");
+
+            Console.WriteLine("Remova produtos: ");
+            int quant2 = int.Parse(Console.ReadLine());
+            prod.Remover_Produtos(quant2);
+
+            Console.WriteLine($"Dados atualizados: {prod}");
+
             Console.Write("Aperte enter para finalizar o programa");
-            Console.Read();
+            Console.Read(); 
 
 
         }
