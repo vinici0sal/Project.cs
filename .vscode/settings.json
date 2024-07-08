@@ -1,4 +1,4 @@
-{
+ {
     "dotnet.defaultSolution": "Poo_cs.sln",
     "csharp.debug.console": "externalTerminal",
     "zenMode.centerLayout": false
