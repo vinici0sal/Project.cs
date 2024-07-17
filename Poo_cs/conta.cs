@@ -50,8 +50,6 @@ class Conta_Banco
         +
         "Titular: "
         +
-        Titular;
-
-        
+        Titular;        
     }
 }
