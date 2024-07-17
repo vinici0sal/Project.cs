@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 using System.Transactions;
+
 class Conta_Banco
 {
     public string Titular { get; set; }
@@ -20,8 +21,6 @@ class Conta_Banco
         Saldo = saldo;        
 
     }
-    
-
 
     public double Add_saldo(double saldo1)
     {
@@ -55,11 +54,4 @@ class Conta_Banco
 
         
     }
-
-
-
-
-
-
-
 }
