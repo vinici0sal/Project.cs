@@ -1,40 +1,64 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 using System.Transactions;
-
 class Conta_Banco
 {
-    private string Titular;
-    private double Saldo;
-    private int Conta;
+    public string Titular { get; set; }
+    public double Saldo { get; private set; }
+    public int Conta{ get; private set; }
 
-    public Conta_Banco(string titular, double saldo, int conta)
+    public Conta_Banco(string titular, int conta)
     {
         Titular = titular;
-        Saldo = saldo;
-        Conta = conta;
-
-        Console.WriteLine($"Dados da conta \n\nTitular: {Titular}, Conta: {Conta}, Saldo: {Saldo}");
-        Console.Read();
+        Conta = conta;       
     }
 
-    public double Add_Saldo(int ndepo)
+    public Conta_Banco(double saldo, string titular, int conta) :  this( titular, conta)
     {
-        Saldo = Saldo + ndepo;
+        Saldo = saldo;        
+
+    }
+    
+
+
+    public double Add_saldo(double saldo1)
+    {
+        
+        Saldo += saldo1;
+        return Saldo;
+
+    }
+
+    public double Saq_Saldo(double valor)
+    {
+        Saldo -= valor + 5;
         return Saldo;
     }
 
-    public double Remover_Saldo(int ndepo2)
+    public override string ToString()
     {
-        Saldo = Saldo - ndepo2;
-        return Saldo;
+        return "Conta: "
+        +
+        Conta
+        +
+        " Saldo: "
+        +
+        Saldo.ToString("F2", CultureInfo.InvariantCulture)
+        +
+        " "
+        +
+        "Titular: "
+        +
+        Titular;
+
+        
     }
 
-    public int GetConta()
-    {
-        return Conta;
-    }
+
+
+
 
 
 
