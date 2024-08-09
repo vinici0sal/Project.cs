@@ -27,3 +27,7 @@ C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\obj\Debug\net8.0\refint\Po
 C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\obj\Debug\net8.0\Poo_cs.pdb
 C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\obj\Debug\net8.0\Poo_cs.genruntimeconfig.cache
 C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\obj\Debug\net8.0\ref\Poo_cs.dll
+C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\obj\Debug\net8.0\Poo_cs.csproj.AssemblyReference.cache
+C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\obj\Debug\net8.0\Poo_cs.csproj.Up2Date
+C:\Users\Raizd\OneDrive\Desktop\Poo\Project.cs\Poo_cs\bin\Debug\net8.0\Newtonsoft.Json.dll

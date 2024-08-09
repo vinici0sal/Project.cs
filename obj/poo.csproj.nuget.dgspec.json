@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\poo.csproj": {}
+    "c:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\poo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\poo.csproj": {
+    "c:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\poo.csproj",
+        "projectUniqueName": "c:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\poo.csproj",
         "projectName": "poo",
-        "projectPath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\poo.csproj",
+        "projectPath": "c:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\poo.csproj",
         "packagesPath": "C:\\Users\\Raizd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\poo\\obj\\",
+        "outputPath": "c:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raizd\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -33,11 +33,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

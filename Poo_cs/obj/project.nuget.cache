@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "A3ojk/aO9iY=",
+  "dgSpecHash": "VC8HaFBl+Mw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Raizd\\OneDrive\\Desktop\\Poo\\Project.cs\\Poo_cs\\Poo_cs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Raizd\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Raizd\\.nuget\\packages\\restsharp\\111.4.1\\restsharp.111.4.1.nupkg.sha512"
+  ],
   "logs": []
 }
